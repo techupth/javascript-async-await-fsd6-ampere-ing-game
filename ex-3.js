@@ -33,3 +33,11 @@ let getJohnOrders = () => {
 };
 
 // Start coding here
+let profileData = (data) => {
+  console.log(data);
+};
+let orderData = (data) => {
+  console.log(data);
+};
+
+getJohnProfile().then(profileData).then(getJohnOrders).then(orderData);
